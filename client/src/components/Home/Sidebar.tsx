@@ -97,6 +97,7 @@ const Sidebar = ({
           <div className="size-8 rounded-full bg-linear-to-br from-red-400 to-pink-400 flex items-center justify-center text-white text-sm font-medium shrink-0">
             {user?.name?.charAt(0).toUpperCase() || "U"}
           </div>
+
           <div className="flex-1 min-w-0">
             <div className="text-sm text-slate-800 truncate">{user?.name}</div>
             <div className="text-sm text-slate-400 truncate">{user?.email}</div>

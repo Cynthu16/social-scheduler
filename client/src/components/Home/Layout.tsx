@@ -47,6 +47,7 @@ const Layout = () => {
           </div>
         </header>
         <main className="flex-1 overflow-auto p-4 sm:p-6 md:p-8 xl:p-12">
+          {title}
           <Outlet />
         </main>
       </div>
